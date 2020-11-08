@@ -1,0 +1,65 @@
+-- USERS
+INSERT INTO users (name, age) VALUES ("User 1", 1);
+INSERT INTO users (name, age) VALUES ("User 2", 2);
+INSERT INTO users (name, age) VALUES ("User 3", 3);
+INSERT INTO users (name, age) VALUES ("User 4", 4);
+INSERT INTO users (name, age) VALUES ("User 5", 5);
+INSERT INTO users (name, age) VALUES ("User 6", 6);
+INSERT INTO users (name, age) VALUES ("User 7", 7);
+INSERT INTO users (name, age) VALUES ("User 8", 8);
+INSERT INTO users (name, age) VALUES ("User 9", 9);
+INSERT INTO users (name, age) VALUES ("User 10", 10);
+INSERT INTO users (name, age) VALUES ("User 11", 11);
+INSERT INTO users (name, age) VALUES ("User 12", 12);
+INSERT INTO users (name, age) VALUES ("User 13", 13);
+INSERT INTO users (name, age) VALUES ("User 14", 14);
+INSERT INTO users (name, age) VALUES ("User 15", 15);
+INSERT INTO users (name, age) VALUES ("User 16", 16);
+INSERT INTO users (name, age) VALUES ("User 17", 17);
+INSERT INTO users (name, age) VALUES ("User 18", 18);
+INSERT INTO users (name, age) VALUES ("User 19", 19);
+INSERT INTO users (name, age) VALUES ("User 20", 20);
+
+-- PROJECTS
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 1", "Category 1", 1000, 01/01/2020, 01/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 2", "Category 2", 2000, 02/01/2020, 02/02/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 3", "Category 3", 3000, 03/01/2020, 03/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 4", "Category 4", 4000, 04/01/2020, 04/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 5", "Category 5", 5000, 05/01/2020, 05/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 6", "Category 6", 6000, 06/01/2020, 06/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 7", "Category 7", 7000, 07/01/2020, 07/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 8", "Category 8", 8000, 08/01/2020, 08/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 9", "Category 9", 9000, 09/01/2020, 09/01/2021);
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Title 10", "Category 10", 10000, 10/01/2020, 10/01/2021);
+
+-- PLEDGES
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 1, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 2, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 3, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 4, 7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 5, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 6, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 7, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 8, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 9, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 10, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 11, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 12, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 13, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 14, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 15, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 16, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 17, 7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 18, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 19, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 20, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 19, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 18, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 17, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 16, 7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 15, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 14, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 13, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 12, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 11, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 10, 1);
